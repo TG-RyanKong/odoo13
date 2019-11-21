@@ -1,0 +1,12 @@
+<odoo>
+    <!--Action to open p1 Task list-->
+    <act_window id="ppp.action_p1_task"
+                name="p1 Task"
+                res_model="p1.task"
+                view_mode="tree,form" />
+    <!--Menu item to open p1 Task list-->
+    <menuitem id="ppp.menu_p1_task"
+              parent="ppp.menu_root"
+              name="Menu P1"
+              action="ppp.action_p1_task" />
+</odoo>
