@@ -1,5 +1,5 @@
 <odoo>
-    <!--Action to open p1 Task list-->
+    <!--Action to open p1 Task list!-->
     <act_window id="ppp.action_p1_task"
                 name="p1 Task"
                 res_model="p1.task"
