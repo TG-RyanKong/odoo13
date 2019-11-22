@@ -4,7 +4,7 @@ from odoo import models, fields
 class p1Task(models.Model):
     _name = 'p1.task'
     _description = 'P1 Task'
-    name = fields.Char('Description', required=True)
+    name = fields.Char('name', required=True)
     age = fields.Char('age')
-    is_done = fields.Boolean('Done?')
-    active = fields.Boolean('Active?', default=True)
+    marry = fields.Boolean('marry')
+    is_child = fields.Boolean('child', default = False)
