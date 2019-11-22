@@ -1,6 +1,6 @@
 <odoo>
         <!-- 扩展列表视图中的列 -->
-        <record model="ir.ui.view" id="p1_task.list">
+        <record model="ir.ui.view" id="p1_task_list">
           <field name="name">p1_task list</field>
           <field name="model">p1.task</field>
           <field name="type">tree</field>
