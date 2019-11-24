@@ -25,7 +25,8 @@ SETLOCAL
 @echo ==========================================================
 @echo off
 
-F:\odoo\odoo13\venv\Scripts\python odoo-bin scaffold todo-app custom-addons
+F:\odoo\odoo13\venv\Scripts\python odoo-bin -c  odoo.conf
+
 ENDLOCAL
 
 pause

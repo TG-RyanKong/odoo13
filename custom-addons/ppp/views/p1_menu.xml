@@ -1,25 +1,65 @@
 <odoo>
-        <!-- 扩展列表视图中的列 -->
-        <record model="ir.ui.view" id="p1_task_list">
-          <field name="name">p1_task list</field>
-          <field name="model">p1.task</field>
-          <field name="type">tree</field>
-          <field name="arch" type="xml">
+    <!-- 扩展列表视图中的列 -->
+    <record model="ir.ui.view" id="p1_task_list">
+      <field name="name">P1_Task List</field>
+      <field name="model">p1.task</field>
+        <field name="arch" type="xml">
+<!--            <tree colors="decoration–muted:marry==True">-->
             <tree>
-              <field name="name"/>
-              <field name="age"/>
+                <field name="name"/>
+                <field name="age"/>
+                <field name="marry"/>
             </tree>
-          </field>
-        </record>
-        <!--触发窗口，引用model-->
-        <act_window id="ppp.action_p1_task"
-                    name="人员记录"
-                    res_model="p1.task"
-                    view_mode="tree,form"
-        />
-        <!--创建菜单，设置上级菜单，触发窗口-->
-        <menuitem id="ppp.menu_p1_task"
-                  parent="ppp.menu_root"
-                  name="Menu P1"
-                  action="ppp.action_p1_task" />
+        </field>
+<!--        <search>-->
+<!--            <filter string="name"/>-->
+<!--            <filter string="age"/>-->
+<!--        </search>-->
+    </record>
+    <!-- 转换窗口视图 -->
+    <record model="ir.ui.view" id="p1_task_from">
+        <field name="name">P1_Task Form</field>
+        <field name="model">p1.task</field>
+        <field name="arch" type="xml">
+<!--            <form string="P1-Task Group">-->
+                    <!--分组-->
+<!--                <group>-->
+<!--                    <field name="name"/>-->
+<!--                    <field name="age"/>-->
+<!--                    <field name="marry" readonly="1"/>-->
+<!--                    <field name="is_child"/>-->
+<!--                </group>-->
+<!--            </form>-->
+            <form>
+                <header>
+                    <button name="do_toggle_done" type="object" string="Toggle Done" class="oe_highlight" />
+                    <button name="do_clear_done" type="object" string="Clear All Done" />
+                </header>
+                <sheet>
+                    <!-- Content goes here:-->
+                    <group name="group_top">
+                        <group name="group_left">
+                            <field name="name"/>
+                            <field name="age"/>
+                        </group>
+                        <group name="group_right">
+                            <field name="marry"/>
+                            <field name="is_child" readonly="1"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <!--触发窗口，引用model-->
+    <act_window id="ppp.action_p1_task"
+                name="人员记录"
+                res_model="p1.task"
+                view_mode="tree,form"
+    />
+    <!--创建菜单，设置上级菜单，触发窗口-->
+    <menuitem id="ppp.menu_p1_task"
+              parent="ppp.menu_root"
+              name="Menu P1"
+              action="ppp.action_p1_task" />
 </odoo>
