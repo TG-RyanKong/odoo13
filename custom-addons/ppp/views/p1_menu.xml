@@ -3,14 +3,7 @@
     <record model="ir.ui.view" id="p1_task_list">
       <field name="name">P1_Task List</field>
       <field name="model">p1.task</field>
-<!--        <from>-->
-<!--            <header>-->
-<!--                <button name="do_child" type="object" string="do child" class="oe_highlight" />-->
-<!--                <button name="do_clear_child" type="object" string="Clear child" />-->
-<!--            </header>-->
-<!--        </from>-->
         <field name="arch" type="xml">
-<!--            <tree colors="decoration–muted:marry==True">-->
             <tree>
                 <field name="name"/>
                 <field name="age"/>
@@ -34,8 +27,9 @@
 <!--            </form>-->
             <form>
                 <header>
-                    <button name="do_toggle_done" type="object" string="Toggle Done" class="oe_highlight" />
+                    <button name="is_child_done" type="object" string="child Done" class="oe_highlight" />
                     <button name="do_clear_done" type="object" string="Clear All Done" />
+<!--                    <field name="age" widget="statusbar" clickable="True" />-->
                 </header>
                 <sheet>
                     <!-- Content goes here:-->
@@ -50,6 +44,11 @@
                         </group>
                     </group>
                 </sheet>
+<!--                <div class="oe_chatter">-->
+<!--                    <field name="name" widget="mail_followers" />-->
+<!--                    <field name="age" widget="mail_activity" />-->
+<!--                    <field name="marry" widget="mail_thread" />-->
+<!--                </div>-->
             </form>
         </field>
     </record>
