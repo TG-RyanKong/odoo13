@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e94ff78-0217-4dde-81bb-d63e4422d055" name="Default" comment="更新菜单">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/odoo13.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/odoo13.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-addons/ppp/models/p1_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/custom-addons/ppp/models/p1_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/custom-addons/ppp/views/p1_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/custom-addons/ppp/views/p1_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/__init__.py.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_todo.py.bak" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +41,7 @@
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
         <option value="Ryan Kong" />
+        <option value="kongrui &lt;kongrui1@163.com&gt;" />
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,7 +69,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/odoo-bin" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -174,7 +178,21 @@
       <option name="project" value="LOCAL" />
       <updated>1574414431231</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="更新菜单">
+      <created>1574416473476</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574416473476</updated>
+    </task>
+    <task id="LOCAL-00004" summary="更新菜单">
+      <created>1574577887511</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574577887511</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +212,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="更新菜单错误p1_task_list" />
+    <MESSAGE value="增加菜单按钮等内容" />
     <MESSAGE value="更新菜单" />
     <option name="LAST_COMMIT_MESSAGE" value="更新菜单" />
   </component>

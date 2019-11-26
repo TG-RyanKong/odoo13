@@ -3,6 +3,12 @@
     <record model="ir.ui.view" id="p1_task_list">
       <field name="name">P1_Task List</field>
       <field name="model">p1.task</field>
+<!--        <from>-->
+<!--            <header>-->
+<!--                <button name="do_child" type="object" string="do child" class="oe_highlight" />-->
+<!--                <button name="do_clear_child" type="object" string="Clear child" />-->
+<!--            </header>-->
+<!--        </from>-->
         <field name="arch" type="xml">
 <!--            <tree colors="decoration–muted:marry==True">-->
             <tree>
@@ -11,10 +17,6 @@
                 <field name="marry"/>
             </tree>
         </field>
-<!--        <search>-->
-<!--            <filter string="name"/>-->
-<!--            <filter string="age"/>-->
-<!--        </search>-->
     </record>
     <!-- 转换窗口视图 -->
     <record model="ir.ui.view" id="p1_task_from">
