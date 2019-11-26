@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e94ff78-0217-4dde-81bb-d63e4422d055" name="Default" comment="更新菜单" />
+    <list default="true" id="8e94ff78-0217-4dde-81bb-d63e4422d055" name="Default" comment="更新菜单">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-addons/ppp/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/custom-addons/ppp/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-addons/ppp/models/button.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-addons/ppp/models/p1_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/custom-addons/ppp/models/p1_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-addons/ppp/views/p1_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/custom-addons/ppp/views/p1_menu.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +83,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.odoo13">
-    <configuration name="__manifest__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="__manifest__" type="PythonConfigurationType" factoryName="Python">
       <module name="odoo13" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -119,6 +125,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="button" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="odoo13" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="F:\odoo\odoo13\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/custom-addons/ppp/models/button.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="odoo13" type="PythonConfigurationType" factoryName="Python">
       <module name="odoo13" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,9 +167,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="p1_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="odoo13" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="F:\odoo\odoo13\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/custom-addons/ppp/models/p1_model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.__manifest__" />
+        <item itemvalue="Python.p1_model" />
+        <item itemvalue="Python.button" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +248,28 @@
       <option name="project" value="LOCAL" />
       <updated>1574756102946</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="更新菜单">
+      <created>1574756329064</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1574756329064</updated>
+    </task>
+    <task id="LOCAL-00008" summary="更新菜单">
+      <created>1574775772622</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1574775772622</updated>
+    </task>
+    <task id="LOCAL-00009" summary="更新菜单">
+      <created>1574778470927</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1574778470927</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
