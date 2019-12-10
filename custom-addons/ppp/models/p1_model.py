@@ -1,5 +1,5 @@
 # –*– coding: utf–8 –*–
-from odoo import models, fields
+from odoo import models, fields,exceptions
 import logging
 
 class p1Task(models.Model):
@@ -16,4 +16,7 @@ class p1Task(models.Model):
         self.is_child = True
 
     def no_child_done(self):
+
         self.age = 23
+        self.is_child = False
+

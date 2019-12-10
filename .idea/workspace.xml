@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e94ff78-0217-4dde-81bb-d63e4422d055" name="Default" comment="更新菜单">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-addons/ppp/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/custom-addons/ppp/models/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-addons/ppp/models/button.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/custom-addons/ppp/models/p1_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/custom-addons/ppp/models/p1_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/custom-addons/ppp/views/p1_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/custom-addons/ppp/views/p1_menu.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,27 +58,22 @@
   </component>
   <component name="ProjectId" id="1TYXgQiXWrIE5E576tmOj7kB0qT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore.virus.scanning.warn.message" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/odoo-bin" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.odoo13">
     <configuration name="__manifest__" type="PythonConfigurationType" factoryName="Python">
@@ -195,6 +188,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -269,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574778470927</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="更新菜单">
+      <created>1574786834940</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1574786834940</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,5 +305,31 @@
     <MESSAGE value="增加菜单按钮等内容" />
     <MESSAGE value="更新菜单" />
     <option name="LAST_COMMIT_MESSAGE" value="更新菜单" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="639" y="245" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575878415210">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="639" y="245" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575878415210" />
+    <state width="1897" height="160" key="GridCell.Tab.0.bottom" timestamp="1575884558821">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1897" height="160" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575884558821" />
+    <state width="1897" height="160" key="GridCell.Tab.0.center" timestamp="1575884558820">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1897" height="160" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575884558820" />
+    <state width="1897" height="160" key="GridCell.Tab.0.left" timestamp="1575884558820">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1897" height="160" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575884558820" />
+    <state width="1897" height="160" key="GridCell.Tab.0.right" timestamp="1575884558821">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1897" height="160" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575884558821" />
+    <state x="460" y="161" key="SettingsEditor" timestamp="1575878402890">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="460" y="161" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1575878402890" />
   </component>
 </project>
